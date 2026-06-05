@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rakesh Supermarket</title>
+
+    <style>
+        body{
+            margin:0;
+            background-color:orange;
+            text-align:center;
+        }
+
+        .sub{
+            background:red;
+            color:white;
+            padding:15px 30px;
+            border:none;
+            border-radius:30px;
+            cursor:pointer;
+            margin-top:20px;
+        }
+
+        #products{
+            display:none;
+            margin-top:30px;
+        }
+
+        .item{
+            background:white;
+            width:200px;
+            margin:10px auto;
+            padding:15px;
+            border-radius:10px;
+            font-size:20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <img src="market.jpeg" width="700">
+
+    <br>
+
+    <button class="sub" onclick="showProducts()">
+        Shop Now
+    </button>
+
+    <div id="products">
+        <div class="item">🌾 Rice - ₹60/kg</div>
+        <div class="item">🌾 Wheat - ₹45/kg</div>
+        <div class="item">🍚 Sugar - ₹50/kg</div>
+        <div class="item">🛢️ Cooking Oil - ₹150/L</div>
+        <div class="item">🥛 Milk - ₹30</div>
+    </div>
+
+    <script>
+        function showProducts() {
+            document.getElementById("products").style.display = "block";
+        }
+    </script>
+
+</body>
+</html>
