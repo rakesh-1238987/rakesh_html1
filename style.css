@@ -1,0 +1,123 @@
+body{
+    margin:0;
+    font-size: 20px;
+
+}
+*{
+    font-family:'Courier New', Courier, monospace;
+}
+header{
+    height: 100vh;
+    background-color:orange;
+    border-radius: 20px;
+    margin-bottom: 20px;
+        display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(58, 53, 53);
+
+}
+header h1{
+    color:aliceblue;
+
+}
+h1{
+    color: orange;
+    
+}
+p{
+    font-size: 10px;
+
+}
+
+img{
+    height: 300px;
+    width: 200px;
+   
+}
+section{
+    text-align: left;
+    padding: 20px ;
+    height: 100vh;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-bottom: 40px;
+        display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.button{
+    margin: 20px;
+    background-color: rgb(58, 53, 53);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.button:hover{
+    background-color: rgb(58, 53, 53);
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+}
+.submit{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1px;
+}
+.submit:hover{
+    background-color: orange;
+    color: black;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+footer{
+    height: 50vh;
+    background-color: rgb(58, 53, 53);
+    
+        display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.fixed{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.list{
+    font-size: 20px;
+}
+.table{
+    font-size: 20px;
+}
+.pd{
+    font-size: 20px;
+}
+.pp{
+    font-size: 15px;
+}

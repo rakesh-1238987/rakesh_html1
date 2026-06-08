@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <h1>WELCOME TO MY PORTFOLIO</h1>
+    <div>
+    <a href="#about"><button class="button">About Me</button></a>
+    
+    
+    <a href="#skills"><button class="button">Skills</button></a>
+    
+    
+    <a href="#projects"><button class="button">Projects</button></a>
+
+    <a href="#contact"><button class="button">Contact</button></a>
+    </div>
+    </header>
+    <main>
+        <section id="about">
+            <h1>Rakesh</h1>
+            <img src="myimage.jpeg" alt="My Image" >
+            <p class="pp">I am a passionate web developer with a focus on front-end technologies.</p>
+            <p class="pp"> I am currently Pursuing my B. Tech in <em>Marwadi university in Rajkot</em>.</p>
+            <p class="pp">You can <strong>click here</strong> to Checkout What I have learnt in HTML CSS JS.</p>
+        </section>
+        <section id="skills">
+            <div class="list">
+            <h1> My skills</h1>
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+            </ol>
+        </div>
+        </section>
+        <section id="projects">
+            <div class="table">
+            <h1>My Projects</h1>
+            <table border="2">
+                <tr>
+                    <th>Project </th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>Project 1</td>
+                    <td>A simple portfolio website built with HTML and CSS.</td>
+                </tr>
+                <tr>
+                    <td>Project 2</td>
+                    <td>A to-do list application built with JavaScript.</td>
+                </tr>
+            </table>
+            </div>
+        </section>
+        <section id="contact">
+            <h1>Contact Me</h1>
+            <p class="pd"><b>Feel free to get in touch with me using the form below:</b></p>
+            <form>
+                <label for="name" > Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your name ">
+                <br><br>
+                <label for="email" > Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Enter the gmail" aria-invalid="false">
+                <br><br>
+                <label for="gender"> <b>choose your gender:</b></label>
+<input type="radio" id="male" name="gender" value="male">
+                <label for="male" > Male:</label>
+                
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female" > Female:</label>
+                <br><br>
+                <strong>Select your interests</strong>
+      <input type="checkbox" id="coding" name="interests" value="coding">
+         <label for="coding"> Coding</label>
+         <input type="checkbox" id="design" name="interests" value="design">
+         <label for="design"> Design</label>
+
+
+<br><br>
+         
+
+                <label for="message" > Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <br><br>
+            <button type="submit" class="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <a href="">
+    <button class="fixed"> TOP</button>
+    </a>
+    <footer>
+        <p>&copy; 2024 Rakesh. All rights reserved.</p>
+    </footer>
+</body>
+</html>
